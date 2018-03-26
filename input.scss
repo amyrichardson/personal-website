@@ -1,0 +1,93 @@
+$primary-light: #ECEEF2;
+$primary-dark: #2E2E2E;
+$accent-1: #4C436E;
+$accent-2: #F5EE71;
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: $primary-light;
+    color: $primary-dark;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-header {
+    width: 100%;
+    padding-top: 20px;
+    background-color: $accent-1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 5px solid $accent-2;
+}
+
+.header-icons {
+    text-decoration: none;
+    font-size: 24pt;
+    padding: 0px 10px;
+    color: $primary-light;
+}
+
+.nav-link {
+    padding: 0px 30px;
+    text-decoration: none;
+    color: $primary-light;
+}
+
+.nav-link:hover {
+    color: $accent-2;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.intro {
+    padding: 100px;
+    border-bottom: 2px solid rgba(46, 46, 46, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.intro > div {
+    width: 30%;
+    padding: 40px;
+}
+
+.intro > div > h1 {
+    font-size: 36pt;
+    border-bottom: 3px solid $accent-1;
+}
+
+.intro > div > p {
+    line-height: 20pt; 
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-card {
+    flex: 1 1 0;
+    background-color: $primary-dark;
+    cursor: pointer;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: #F5EE71;
+    font-size: 24pt;
+}
+
+.headshot {
+    border-radius: 40px;
+    border: 2px solid $accent-2;
+}
